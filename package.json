@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "cross-env NODE_ENV=production vuepress build docs",
+    "deploy": "start deploy.sh"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "vuepress": "^1.5.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
   }
 }

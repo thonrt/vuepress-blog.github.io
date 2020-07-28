@@ -7,7 +7,7 @@ module.exports = {
     },
     themeConfig: {
         searchMaxSuggestions: 10,
-        lastUpdated: 'Last Updated',
+        lastUpdated: 'Lastest',
         nav: [ // 导航栏配置
             { text: '前端基础', link: 'https://baidu.com' },
             { text: '算法题库', link: 'https://baidu.com' },
