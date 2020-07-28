@@ -1,7 +1,7 @@
 module.exports = {
     title: "BDUAN",
     description: '我的个人网站',
-    base: '/', // 这是部署到github相关的配置
+    base: '/vuepress-blog/', // 这是部署到github相关的配置
     markdown: {
         lineNumbers: false // 代码块显示行号
     },
